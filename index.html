@@ -2,10 +2,95 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="first.css">
     <title>Zomato clone</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_brand">
+                <img src="images/Zomato-Logo.png" alt="logo" class="navbar_logo">
+            </div>
+            <div class="navbar_nav_items">
+                <button class="nav_item button_primary">Order Food</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero_container">
+            <div class="hero_image_container">
+                <img src="images/hero1.jpeg"alt="hero image" class="hero_image">
+            </div>
+            <div class="hero_description">
+                <h1 class="hero_text">Order Food from your favourite restaurants near You.</h1>
+                <button class="button_primary">Order Now</button>
+            </div>
+
+        </section>
+        <br>
+        <br><br><br>
+        <section class="explore_menu_container">
+            <h1 class="explore_menu_text">Explore our Menu</h1>
+            <div class="explore_menu_gradient_bg"></div>
+            <div class="explore_menu_lists">
+                <div class="food_card">
+                   <div class="food_card_image">
+                    <img src="images/burger.jpeg"alt="burger"class="food_image">
+                   </div>
+                   <div class="food_card_description"></div> 
+                   <h3 class="food_title">Burger</h3>
+                   <p>Burger King,Mcdonalds,Burger Place<span style="color:#FF0060">+3</span></p>
+                </div>
+                <div class="food_card" id="pizza_card">
+                    <div class="food_card_image">
+                     <img src="images/pizza.jpeg"alt="burger"class="food_image">
+                    </div>
+                    <div class="food_card_description"></div> 
+                    <h3 class="food_title">pizza</h3>
+                    <p>Dominos,La-pianos,pizza Hut<span style="color:#FF0060">+3</span></p>
+                 </div>
+                 <div class="food_card">
+                    <div class="food_card_image">
+                     <img src="images/food1.jpeg"alt="burger"class="food_image">
+                    </div>
+                    <div class="food_card_description"></div> 
+                    <h3 class="food_title">Breakfast,Lunch,Dinner</h3>
+                    <p>Red Mango,Taste of Bengal<span style="color:#FF0060">+3</span></p>
+                 </div>
+            </div>
+        </section>
+        <section class="photo_collage">
+            <p class="collage_text">You can order from 100s of restaurants</p>
+            <div class="photos">
+                <img src="images/res1.jpeg"alt="res1"class="res1">
+                <img src="images/res2.jpeg" alt="res2" class="res2">
+                <img src="images/res3.jpeg" alt="res3" class="res3">
+                <img src="images/res4.jpeg" alt="res4" class="res4">
+            </div>
+        </section>
+        <p class="update">Stay updated</p>
+        <section class="update_mailer">
+            <div class="add_mail">
+                <input type="text" placeholder="type mail" class="type_mail">
+            </div>
+            <button class="button_primary">Get Updates</button>
+        </section>
+    </main>
+    <section class="last">
+        <div class="last_logo">
+            <h1 class="name">Zomato</h1>
+        </div>
+        <div class="details">
+            <ul><li>pricing</li>
+            <li>terms and condition</li>
+            <li>contact</li>
+        <li>partnership</li>
+    <li>career</li></ul>
+        </div>
+    </section>
 
 </body>
 </html>

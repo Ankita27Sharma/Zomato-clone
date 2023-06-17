@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather',serif;
+    background-color: #ebf2ff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F3BCC8;
+}
+.navbar_brand{
+    width: 100px;
+}
+.navbar_logo{
+    width: 100%;
+}
+.button_primary{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.button_primary:hover{
+    border: 2px solid #FF6767;
+    cursor: pointer;
+}
+.container{
+    max-width: 100%;
+    padding: 20px;
+    margin:0 auto;
+}
+.hero_image_container{
+    width: 100%;
+}
+.hero_image{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0/25%);
+}
+.hero_text{
+    font-weight: 800px;
+    font-size: 32px;
+    margin: 20px 0;
+    color: #1d3557;
+}
+.food_card_description{
+    padding: 15px;
+}
+.food_card{
+    background-color: #f9f9f9;
+}
+.food_card_image_container{
+    width:100%;
+}
+.food_image{
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+}
+.update{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    color: #1d3557;
+    font-weight: 900;
+}
+
+.explore_menu_text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #1d3557;
+}
+.update_mailer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.type_mail{
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 80%;
+    color: #F3BCC8;
+    height: 20%;
+   z-index: -8;
+    
+}
+.last_logo{
+    font-size: 30px;
+    color: #ebf2ff;
+    padding-left: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.last{
+    display: flex;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+        );
+        width: 100%;
+           
+
+}
+.details{
+    color: #ebf2ff;
+    padding-top: 20px;
+    padding-left:40% ;
+    }
+.photo_collage{
+    padding-top: 50px;
+    display: flex;
+}
+.collage_text{
+    padding-top: 180px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1d3557;
+
+}
+.photos{
+    padding-left: 150px;
+}
+
+@media (min-width:768px){
+    .photo_collage{
+        padding-top: 50px;
+        display: flex;
+    }
+    .collage_text{
+        padding-top: 180px;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #1d3557;
+    
+    }
+    .photos{
+        padding-left: 150px;
+    }
+    .update_mailer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .type_mail{
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 30px;
+        padding-left: 80px;
+        color: #F3BCC8;
+        position: absolute;
+        z-index: 8;
+    }
+    .explore_menu_lists{
+        padding-top: 20px;
+        display: flex;
+        gap: 15px;
+        padding: 0 30px;
+    }
+    .explore_menu_container{
+        position: relative;
+    }
+    .explore_menu_gradient_bg{
+        position:absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    z-index: -3;
+    transform: skewY(-5deg);
+
+    }
+    #pizza_card{
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 30px;
+        background-color: #F3BCC8;
+    }
+    .hero_container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+@media (min-width:1024px) {
+    .container{
+        max-width: 70%;
+    }
+    .explore_menu_lists{
+        gap: 25px;
+    }
+    .navbar_brand{
+        width: 150px;
+    }
+    .button_primary{
+        padding: 20px;
+        font-size: 20px;
+    }
+    .hero_description{
+        width: 100%;
+    }
+    .hero_text{
+        font-size: 50px;
+    }
+    .explore_menu_text{
+        font-size: 48px;
+    }
+}
+    
